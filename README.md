@@ -1,5 +1,7 @@
 # 📦 Von der Prognose zum Bestand
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-forecast-inventory-demo.streamlit.app/)**
+
 Zehntes Stück der **Zeitreihen-Prognose-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning. Der **Zusammenfluss** der Prognoseverfahren mit der Bestandsplanung: Abnehmer der Quantile aus den [Prognoseintervallen](https://github.com/sebastian-hanisch/forecast-interval-demo) und der Prognosen aus [Boosting](https://github.com/sebastian-hanisch/boosting-forecast-demo) und [Kombination](https://github.com/sebastian-hanisch/forecast-combination-demo).
 Geplant ist ein weiteres Stück (ein vortrainiertes Netz; noch nicht gebaut).
 
