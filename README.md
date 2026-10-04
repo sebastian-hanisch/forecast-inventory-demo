@@ -3,7 +3,7 @@
 **[→ Demo live ausprobieren](https://sebastianhanisch-forecast-inventory-demo.streamlit.app/)**
 
 Zehntes Stück der **Zeitreihen-Prognose-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning. Der **Zusammenfluss** der Prognoseverfahren mit der Bestandsplanung: Abnehmer der Quantile aus den [Prognoseintervallen](https://github.com/sebastian-hanisch/forecast-interval-demo) und der Prognosen aus [Boosting](https://github.com/sebastian-hanisch/boosting-forecast-demo) und [Kombination](https://github.com/sebastian-hanisch/forecast-combination-demo).
-Geplant ist ein weiteres Stück (ein vortrainiertes Netz; noch nicht gebaut).
+Das letzte Stück der Linie, ein vortrainiertes Netz, ist gebaut ([pretrained-net-demo](https://github.com/sebastian-hanisch/pretrained-net-demo)).
 
 Eine Prognose ist kein Bestand. Wer bestellt, muss die Nachfrage der **Wiederbeschaffungszeit** decken – und ein **Sicherheitsbestand** fängt ab, was die Prognose verfehlt. Wie groß der sein muss, hängt an der **Unsicherheit der Prognose**, nicht an ihrem Wert. Die Demo nimmt die Prognosen der Vorgänger (Wochenmittel, Holt-Winters, Regression, Boosting und ihren Mittelwert) auf einem **Portfolio von Depots**
 und bildet vier **Bestandsregeln** (Faustregel, log-normal, empirisch, konform) gegen eine Regel mit der **wahren Verteilung**. Eine **Bestandsfortschreibung** über das Testjahr (tägliche Überprüfung, Wiederbeschaffungszeit, nachgelieferte Fehlmengen) misst **Kosten und Servicegrad**. Alle Daten sind erzeugt, die Rechnung ist in numpy geschrieben (`scipy` nur als Gegenprobe im Test).
@@ -104,3 +104,7 @@ streamlit run app.py
 ```
 
 Gebaut mit Streamlit, Plotly und numpy (Gegenprobe im Test: scipy).
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Zeitreihen-Prognose: von Naiv bis Vortraining](https://sebastianhanisch.net/konzepte-zeitreihen-prognose.html).
