@@ -65,7 +65,7 @@ Die Preset-Zeilen sind **Einzelportfolios** (Seed 3); belastbar sind die Zeilen 
 | **Die Historie beschreibt die Zukunft** | Empirisch und log-normal schätzen die Streuung aus dem Training; ändert sie sich, verfehlen sie das Ziel. | Konforme Kalibrierung |
 | **Die Prognose ist die Nachfrage** | Beobachtet wird hier die tatsächliche Nachfrage; bei Fehlmengen wäre sie nur zensiert sichtbar. | Zensierte Nachfrage schätzen |
 | **Ein Artikel je Depot, ohne Kopplung** | Keine Mehrstufigkeit, kein Risk Pooling, keine Mindestbestellmenge, keine Lieferzeitunsicherheit, keine Preise. | Mehrstufige Bestandsmodelle |
-| **Das Orakel ist eine Annäherung** | Die Summe der Tage wird nach Fenton/Wilkinson durch eine Log-Normalverteilung angenähert (auf 1 % gegen Monte Carlo geprüft); Rundung und Ausreißer sind nicht berücksichtigt. | – |
+| **Das Orakel ist eine Annäherung** | Die Summe der Tage wird nach Fenton/Wilkinson durch eine Log-Normalverteilung angenähert (gegen Monte Carlo geprüft: bei gleichen Tagen und Rauschen bis 0,45 höchstens 0,4 %, bei ungleichen Tageswerten innerhalb 1 %; beim größten Rauschen von 0,6 und ungleichen Tageswerten bis 1,7 %); Rundung und Ausreißer sind nicht berücksichtigt. | – |
 | **Erzeugtes Portfolio, drei Seeds** | Das Vehikel erzeugt genau die Muster (multiplikativ, log-normal, AR(1)-Schwankungen); echte Portfolios sind unordentlicher. Die Zahlen gelten für diese Portfolios. | – |
 
 ## Tests
